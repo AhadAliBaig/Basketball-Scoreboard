@@ -36,5 +36,5 @@ If you want to run this project on your own machine:
 3. Install the dependencies:
    ```bash
    npm install
-   npm start'''
+   npm start
 
