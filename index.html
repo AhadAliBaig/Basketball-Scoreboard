@@ -6,22 +6,30 @@
         <div class="container">
             <div class="section">
             <h3>HOME</h3>
-            <h1 class="home-score-el">0</h1>
+            <h1 id="home-score-el">0</h1>
             <div class="btn">
-                <button id="home-score-btn1" class="indv-btn">+1</button>
-                <button id="home-score-btn2" class="indv-btn">+2</button>
-                <button id="home-score-btn3" class="indv-btn">+3</button>
+                <button  class="indv-btn" onclick= "score1()">+1</button>
+                <button  class="indv-btn" onclick= "score2()">+2</button>
+                <button  class="indv-btn" onclick= "score3()">+3</button>
             </div>
         </div>
+
         <div class="section">
             <h3>GUEST</h3>
-            <h1 class="guest-score-el">0</h1>
+            <h1 id="guest-score-el">0</h1>
             <div class="btn">
-                <button id="guest-score-btn1" class="indv-btn">+1</button>
-                <button id="guest-score-btn2" class="indv-btn">+2</button>
-                <button id="guest-score-btn3" class="indv-btn">+3</button>
+                <button class="indv-btn" onclick= "score1()">+1</button>
+                <button class="indv-btn" onclick= "score2()">+2</button>
+                <button class="indv-btn" onclick= "score3()">+3</button>
             </div>
         </div>
+    </div>
+    <div class="reset">
+        <div class="btn">
+            <button id="reset-btn" class="indv-btn">RESET SCORE</button>
+        </div>
+
+    <div class="footer">
     </div>
 
         <script src="index.js"></script>
