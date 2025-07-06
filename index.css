@@ -1,8 +1,12 @@
 body {
     margin: 0;
+    background-color: #1B244A;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: #1B244A;
+    color: #EEEEEE;
 }
