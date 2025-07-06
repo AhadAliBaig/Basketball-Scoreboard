@@ -1,19 +1,38 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🏀 Basketball Scoreboard
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Hey there!   
+This is a simple basketball scoreboard website I built as part of a **Scrimba Frontend Career Path solo project**. The goal of this project was to practice working with **HTML, CSS, and JavaScript** to build something interactive from scratch.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+The app lets you track the scores for two teams: **Home** and **Guest**. You can update the scores using buttons, and everything updates instantly on the page without refreshing. I also played around with styling and used a digital-style font to make the scoreboard look cooler.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+---
 
-Happy Coding!
+## 🌟 Features
+
+- Display scores for Home and Guest teams
+- Add points with **+1**, **+2**, and **+3** buttons
+- Simple and clean scoreboard design
+- Digital font and color themes
+- Responsive layout using **Flexbox**
+- Button hover effects for better interactivity
+
+---
+
+## Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- [Vite.js](https://vitejs.dev/) for fast development builds
+
+---
+
+## ▶️ Getting Started
+
+If you want to run this project on your own machine:
+
+1. Download or clone this repository.
+2. Open a terminal in the project folder.
+3. Install the dependencies:
+   ```bash
+   npm install
