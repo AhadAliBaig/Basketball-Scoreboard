@@ -53,3 +53,12 @@ function reset() {
     homeScoreEl.textContent = homeScore
     guestScoreEl.textContent = guestScore
 }
+
+// Expose functions to global scope for onclick handlers
+window.score1 = score1
+window.score2 = score2
+window.score3 = score3
+window.gscore1 = gscore1
+window.gscore2 = gscore2
+window.gscore3 = gscore3
+window.reset = reset
