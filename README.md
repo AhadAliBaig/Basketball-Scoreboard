@@ -7,7 +7,7 @@ The app lets you track the scores for two teams: **Home** and **Guest**. You can
 
 ---
 
-## 🌟 Features
+# Features
 
 - Display scores for Home and Guest teams
 - Add points with **+1**, **+2**, and **+3** buttons
@@ -18,16 +18,16 @@ The app lets you track the scores for two teams: **Home** and **Guest**. You can
 
 ---
 
-## Built With
+# Built With
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
+- JavaScript
 - [Vite.js](https://vitejs.dev/) for fast development builds
 
 ---
 
-## ▶️ Getting Started
+# Getting Started
 
 If you want to run this project on your own machine:
 
@@ -36,3 +36,5 @@ If you want to run this project on your own machine:
 3. Install the dependencies:
    ```bash
    npm install
+   npm start'''
+
