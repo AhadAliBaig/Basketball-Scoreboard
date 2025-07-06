@@ -5,8 +5,6 @@ This is a simple basketball scoreboard website I built as part of a **Scrimba Fr
 
 The app lets you track the scores for two teams: **Home** and **Guest**. You can update the scores using buttons, and everything updates instantly on the page without refreshing. I also played around with styling and used a digital-style font to make the scoreboard look cooler.
 
----
-
 # Features
 
 - Display scores for Home and Guest teams
@@ -16,16 +14,12 @@ The app lets you track the scores for two teams: **Home** and **Guest**. You can
 - Responsive layout using **Flexbox**
 - Button hover effects for better interactivity
 
----
-
 # Built With
 
 - HTML5
 - CSS3
 - JavaScript
 - [Vite.js](https://vitejs.dev/) for fast development builds
-
----
 
 # Getting Started
 
