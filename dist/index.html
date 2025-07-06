@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basketball Scoreboard</title>
+      <script type="module" crossorigin src="/assets/index-DefvWoFS.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-6AL8Fb5A.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="section">
+            <h3>HOME</h3>
+            <h1 id="home-score-el">0</h1>
+            <div class="btn">
+                <button  class="indv-btn" onclick= "score1()">+1</button>
+                <button  class="indv-btn" onclick= "score2()">+2</button>
+                <button  class="indv-btn" onclick= "score3()">+3</button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>GUEST</h3>
+            <h1 id="guest-score-el">0</h1>
+            <div class="btn">
+                <button class="indv-btn" onclick= "gscore1()">+1</button>
+                <button class="indv-btn" onclick= "gscore2()">+2</button>
+                <button class="indv-btn" onclick= "gscore3()">+3</button>
+            </div>
+        </div>
+    </div>
+    <div class="reset">
+        <div class="btn">
+            <button id="reset-btn" class="indv-btn" onclick="reset()">RESET SCORE</button>
+        </div>
+
+    <div class="footer">
+    </div>
+
+    </body>
+</html>
